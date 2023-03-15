@@ -1,10 +1,12 @@
 # Mortuary Inc burn program
 
 Solana on-chain program that allow a user to burn a NFT against a fixed amount of $ASH (spl-token).
+
 In order to use the service, the user must:
 - owned a plot (Mortuary Inc voxel NFT collection)
 - burn an NFT implementing the metaplex protocol
 - eventually use a `booster` to get more spl-token
+
 Burning is limited by the plot capacity. 
 
 # Accounts
