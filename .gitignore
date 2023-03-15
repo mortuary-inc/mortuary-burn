@@ -1,0 +1,13 @@
+
+.anchor
+.DS_Store
+target
+**/*.rs.bk
+node_modules
+
+cli/.env.production
+candy/examples/output
+candy/examples2
+candy/examples3
+candy/voxels
+candy/minions

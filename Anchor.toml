@@ -1,0 +1,17 @@
+[programs.localnet]
+mortuary = "minc9MLymfBSEs9ho1pUaXbQQPdfnTnxUvJa8TWx85E"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "localnet"
+wallet = "~/.config/solana/localhost.json"
+
+[scripts]
+test = "yarn ts-mocha -p ./tsconfig.json -t 1000000 tests/**/*.ts"
+
+#
+# run test: 
+# solana-test-validator -r -u mainnet-beta -c metaqbxxUerdq28cj1RbAWkYQm3ybzjb6a8bt518x1s -c p1exdMJcjVao65QdewkaZRUnU6VPSXhus9n2GzWfh98 -c PwDiXFxQsGra4sFFTT8r1QWRMd4vfumiWC1jfWNfdYT -c cndyAnrLdpjq1Ssp1z8xxDsB8dxe7u4HL5Nxi2K5WXZ -c cndy3Z4yapfJBmL3ShUp5exZKqR3z33thTzeNMm2gRZ
+#
